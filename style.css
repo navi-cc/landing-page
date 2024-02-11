@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100;1,300&display=swap');
 
 body {
 
@@ -148,3 +147,167 @@ button {
     cursor: pointer;
 
 }
+
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1;
+}
+
+
+.information-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 330px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+.information-title {
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+}
+
+.card-container {
+
+    width: 75%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 20px;
+
+
+}
+
+.cards {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cards .text {
+
+    margin-top: 8px;
+    width: 190px;
+
+    text-align: center;
+    color: #1f2937;
+}
+
+.cards .card {
+
+    width: 200px;
+    height: 190px;
+    background-color: transparent;
+
+    border: solid 5px #3882f6;
+    border-radius: 20px;
+
+}
+
+
+.quotes-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e5e7eb;
+    height: 330px;
+
+}
+
+
+
+
+.quote {
+    
+    width: 500px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937f3;
+
+}
+
+.author {
+
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 20px;
+    
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+
+}
+
+.cta-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 280px;
+
+}
+
+.cta-container {
+
+    display: flex;
+
+    padding: 35px 10px;
+
+    width: 900px;
+
+    background-color: #3882f6;
+    border-radius: 10px;
+
+    font-weight: 700;
+    color: #f9faf8;    
+
+}
+
+.cta {
+
+    margin-right: auto;
+    margin-left: 40px;
+
+}
+
+.cta-button button {
+
+    background-color: transparent;
+    border: solid 2px #f9faf8;
+    border-radius: 10px;
+
+    padding: 10px 20px;
+
+    color: #f9faf8;
+    font-weight: 700;
+
+    margin-right: 40px;
+
+}
+
+
+
+
+
